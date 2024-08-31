@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+    background-color:crimson;
+   
+ 
+   
+
+
+}
+.main{
+    background-color: royalblue;
+    color: #fff;
+    padding: 15px;
+    
+   
+    width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+   
+}
+.main h1{
+   text-align: center;
+   margin-bottom: 10px;
+   
+}
+.input-submit{
+    display: flex;
+    
+
+}
+ .txt{
+   width: 270px;
+   height: 50px;
+   flex: 1;
+   padding-top: 1px;
+   padding-left: 8px;
+   font-size: 20px;
+   font-weight: 650;
+   background-color: lightgray;
+   outline: none;
+   border: none;
+  
+}
+
+button{
+    width: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+    background-color: lightsalmon;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.784);
+}
+button:hover{
+    background-color: rgba(255, 160, 122, 0.911);
+}
+.txt::placeholder{
+    font-size: 20px;
+    font-weight: 700;
+}
+.Dos{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.uncheck{
+width: 35px;
+height: 35px;
+
+background-color: rgba(255, 255, 255, 0.853);
+border-radius: 50%;
+margin-right: 5px;
+cursor: pointer;
+
+}
+label{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 23px;
+    color: white;
+}
+.check{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: lightgreen;
+    color: black;
+    width: 35px;
+height: 35px;
+border-radius: 50%;
+font-weight: 900;
+cursor: pointer;
+
+    
+}
+.Dos{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 35px;
+    height: 35px;
+    border-radius: 80%;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+
+}
+.line-through {
+    text-decoration: line-through;
+}
+@media (max-width: 600px) {
+    .main {
+        width: 350px;
+        
+    }
+}
